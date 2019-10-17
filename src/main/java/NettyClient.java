@@ -9,9 +9,10 @@ import java.util.concurrent.TimeUnit;
 
 public class NettyClient {
     static int MAX_RETRY = 5;
+
     public static void main(String[] args) {
         NioEventLoopGroup workerGroup = new NioEventLoopGroup();
-
+        System.out.print("aaaaaa");
         Bootstrap bootstrap = new Bootstrap();
         bootstrap
                 // 1.指定线程模型
