@@ -24,6 +24,7 @@ public class NettyClient {
                     public  void initChannel(SocketChannel ch) {
                     }
                 });
+
         // 4.建立连接
 
         connect(bootstrap, "juejin.im", 80, MAX_RETRY);
