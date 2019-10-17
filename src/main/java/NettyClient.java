@@ -11,7 +11,7 @@ public class NettyClient {
     static int MAX_RETRY = 5;
     public static void main(String[] args) {
         NioEventLoopGroup workerGroup = new NioEventLoopGroup();
-
+        //adasdafhahfoiahfhoafhaofhah
         Bootstrap bootstrap = new Bootstrap();
         bootstrap
                 // 1.指定线程模型
